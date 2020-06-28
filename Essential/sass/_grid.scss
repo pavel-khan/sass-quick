@@ -1,0 +1,11 @@
+@mixin btn-padding($tb, $lr) {
+  padding: $tb $lr;
+}
+@mixin flex-width($width) {
+  max-width: $width;
+  flex: 0 0 $width;
+}
+.row [class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}

@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.justify-content-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.p-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row [class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu, nav ul, .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #008aff;
+  color: #ffffff;
+  border: 1px solid #008aff;
+  border-radius: 0.75rem;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #0c66ff;
+}
+
+.single-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  -webkit-box-shadow: 3px 4px 20px 10px #00000014;
+          box-shadow: 3px 4px 20px 10px #00000014;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #6b7a90;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.menu {
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+nav ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #6b7a90;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home {
+  padding: 50px;
+}
+
+.title {
+  padding: 0 80px 30px 0;
+}
+
+.title h1 {
+  font-size: 45px;
+  color: #152c5b;
+  margin-bottom: 15px;
+}
+
+.title h1 strong {
+  color: #008aff;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.buttons {
+  padding-top: 35px;
+}
+
+.buttons li {
+  margin-right: 20px;
+}
+
+.buttons .btn {
+  padding: 0.75rem 1.75rem;
+}
+
+.buttons .btn-reverse {
+  color: #152c5b;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.buttons .btn-reverse:hover {
+  border: 2px solid #008aff;
+}
+
+.get-started-section {
+  background-color: #fafbfe;
+}
+
+.get-started {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5cc9a7;
+  background-color: #def4ed;
+  border-radius: 45px;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.headding {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.headding h2 {
+  color: #152c5b;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.headding ul {
+  margin-top: 40px;
+}
+
+.headding ul li {
+  color: #152c5b;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.single-card {
+  padding: 30px 25px;
+}
+
+.single-card .card-img {
+  margin: auto;
+  min-height: 202px;
+  max-width: 70%;
+}
+
+.single-card h3 {
+  color: #152c5b;
+  margin: 25px 0;
+}
+
+.single-card p {
+  line-height: 1.6;
+}
+
+.single-card p span {
+  text-transform: uppercase;
+}
+
+.icon-shap {
+  width: 30px;
+  height: 30px;
+  line-height: 2;
+  background-color: #008aff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.icon-shap i {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
